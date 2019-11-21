@@ -2,6 +2,7 @@
  * Sækir og vistar í localStorage
  */
 
+/*
 // Fast sem skilgreinir heiti á lykli sem vistað er undir í localStorage
 const LOCALSTORAGE_KEY = 'favourite_spacephotos';
 
@@ -13,7 +14,7 @@ const LOCALSTORAGE_KEY = 'favourite_spacephotos';
  *  { type, mediaUrl, text, title }]
  *
  * @returns {array} fylki af myndum eða tóma fylkið ef ekkert vistað.
- */
+
 export function load() {
 
 }
@@ -25,7 +26,7 @@ export function load() {
  * @param {string} mediaUrl URL á myndinni/myndbandinu.
  * @param {string} text texti fyrir myndina/myndbandið.
  * @param {string} title titill fyrir myndina/myndbandið.
- */
+
 export function save(type, mediaUrl, text, title) {
 
 }
@@ -33,7 +34,8 @@ export function save(type, mediaUrl, text, title) {
 
 /**
  * Hreinsar allar myndir úr localStorage
- */
+
 export function clear() {
   localStorage.removeItem(LOCALSTORAGE_KEY);
 }
+*/
